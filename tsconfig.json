@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node16",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.*",
+    "examples/**/*.*"
+  ],
+  "exclude": ["**/dist", "**/node_modules", "**/test"]
+}

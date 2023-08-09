@@ -1,0 +1,35 @@
+
+*.json
+*.html
+*rc.js
+*.svg
+*.woff
+*.ttf
+*.css
+*.sh
+*.md
+
+.vscode
+.idea
+
+package.json
+
+# Dependency directories
+node_modules/
+
+# local env files
+.env.local
+.env.*.local
+
+.husky
+/bin
+/deploy
+/dist
+/docs
+/public
+/src/assets
+/src/mock
+
+# deps exclude
+types/auto-imports.d.ts
+types/components.d.ts
