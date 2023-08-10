@@ -1,22 +1,27 @@
 {
-  "name": "vite-plugin-assets-cdn",
+  "name": "vite-plugin-external-cdn",
   "version": "1.0.0",
-  "description": "A vite plugin to import assets as a CDN.",
-  "main": "index.js",
+  "description": "A vite plugin to import dependencies as a CDN.",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsc -w",
-    "build": "pnpm lint:fix && rimraf dist && tsc && pnpm build:es",
-    "build:es": "tsc --module ESNEXT --outDir dist/es",
+    "build": "pnpm lint:fix && rimraf dist && tsup src/index.ts --dts --format cjs,esm",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "format": "prettier -w src/**/*.* examples/**/*.*",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint:fix": "eslint --fix src/**/*.*",
     "type-check": "tsc --noEmit"
   },
   "keywords": [
     "vite-plugin",
-    "cdn"
+    "cdn",
+    "external"
   ],
   "author": "zuojiangtao",
   "license": "ISC",
@@ -37,6 +42,7 @@
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.1",
     "rimraf": "^5.0.1",
+    "tsup": "^7.2.0",
     "typescript": "^5.1.6",
     "vite": "^4.4.9"
   },

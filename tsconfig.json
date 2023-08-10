@@ -3,17 +3,19 @@
     "module": "ESNext",
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
-    "moduleResolution": "Node16",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "sourceMap": true,
     "noImplicitThis": true,
     "strict": true,
     "esModuleInterop": true,
-    "verbatimModuleSyntax": true,
+    "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*.*"],
+  "include": [
+    "src/**/*",
+    "type/global.d.ts"
+  ],
   "exclude": ["**/dist", "**/node_modules", "**/test", "example/**/*.*"]
 }
