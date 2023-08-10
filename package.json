@@ -52,5 +52,11 @@
       "eslint --cache --fix",
       "eslint"
     ]
+  },
+  "peerDependencies": {
+    "vite": ">=3"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
