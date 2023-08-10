@@ -87,7 +87,7 @@ export default {
 
 ```js
 import vue from '@vitejs/plugin-vue'
-import importToCDN, { autoComplete } from 'vite-plugin-cdn-import'
+import { importToCDN, autoComplete } from 'vite-plugin-cdn-import'
 
 export default {
     plugins: [
