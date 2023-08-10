@@ -8,7 +8,7 @@
   </p>
   <img src="https://img.shields.io/node/v/vite-plugin-external-cdn" alt="node-current" />
   <img src="https://img.shields.io/npm/dependency-version/vite-plugin-external-cdn/peer/vite" alt="npm peer dependency version" />
-  <img src="https://img.shields.io/github/v/release/fatehak/vite-plugin-external-cdn" alt="GitHub release" />  
+  <img src="https://img.shields.io/github/v/release/Zuojiangtao/vite-plugin-external-cdn" alt="GitHub release" />  
   <img src="https://img.shields.io/npm/l/vite-plugin-external-cdn" alt="licence" />
 </div>
 
