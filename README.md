@@ -84,7 +84,7 @@ export default {
 "@vueuse/core" | "moment" | 
 "eventemitter3" | "file-saver" | 
 "browser-md5-file" | "xlsx | "crypto-js" |
-"axios" | "lodash" | "localforage"
+"axios" | "lodash" | "localforage" | "dayjs"
 ```
 
 ### VueUse demo

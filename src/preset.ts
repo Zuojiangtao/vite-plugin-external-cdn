@@ -118,6 +118,12 @@ const modulesConfig = {
       path: 'dist/localforage.min.js',
     },
   },
+  dayjs: {
+    var: 'dayjs',
+    jsdeliver: {
+      path: 'dayjs.min.js',
+    },
+  },
 };
 
 // 预设cdn地址
