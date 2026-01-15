@@ -5,19 +5,19 @@ const modulesConfig = {
   react: {
     var: 'React',
     jsdeliver: {
-      path: 'umd/react.production.min.js',
+      path: 'jsx-runtime.min.js',
     },
   },
   'react-dom': {
     var: 'ReactDOM',
     jsdeliver: {
-      path: 'umd/react-dom.production.min.js',
+      path: 'index.min.js',
     },
   },
   'react-router-dom': {
     var: 'ReactRouterDOM',
     jsdeliver: {
-      path: 'umd/react-router-dom.min.js',
+      path: 'dist/index.min.js',
     },
   },
   antd: {
@@ -30,7 +30,7 @@ const modulesConfig = {
   ahooks: {
     var: 'ahooks',
     jsdeliver: {
-      path: 'dist/ahooks.js',
+      path: 'dist/ahooks.min.js',
     },
   },
   '@ant-design/charts': {
@@ -42,7 +42,7 @@ const modulesConfig = {
   vue: {
     var: 'Vue',
     jsdeliver: {
-      path: 'dist/vue.global.prod.js',
+      path: 'dist/vue.global.min.js',
     },
   },
   vue2: {
@@ -55,13 +55,13 @@ const modulesConfig = {
   '@vueuse/shared': {
     var: 'VueUse',
     jsdeliver: {
-      path: 'index.iife.min.js',
+      path: 'dist/index.iife.min.js',
     },
   },
   '@vueuse/core': {
     var: 'VueUse',
     jsdeliver: {
-      path: 'index.iife.min.js',
+      path: 'dist/index.iife.min.js',
     },
   },
   moment: {
@@ -73,7 +73,7 @@ const modulesConfig = {
   eventemitter3: {
     var: 'EventEmitter3',
     jsdeliver: {
-      path: 'umd/eventemitter3.min.js',
+      path: 'index.min.js',
     },
   },
   'file-saver': {
@@ -109,7 +109,7 @@ const modulesConfig = {
   'crypto-js': {
     var: 'crypto-js',
     jsdeliver: {
-      path: 'crypto-js.min.js',
+      path: 'index.min.js',
     },
   },
   localforage: {
