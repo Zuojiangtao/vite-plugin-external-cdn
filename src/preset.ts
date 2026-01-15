@@ -52,6 +52,18 @@ const modulesConfig = {
       path: 'dist/vue.runtime.min.js',
     },
   },
+  pinia: {
+    var: 'Pinia',
+    jsdeliver: {
+      path: 'dist/pinia.iife.min.js',
+    },
+  },
+  'vue-router': {
+    var: 'vueRouter',
+    jsdeliver: {
+      path: 'dist/vue-router.global.min.js',
+    },
+  },
   '@vueuse/shared': {
     var: 'VueUse',
     jsdeliver: {
