@@ -55,7 +55,7 @@ const modulesConfig = {
   pinia: {
     var: 'Pinia',
     jsdeliver: {
-      path: 'dist/pinia.iife.min.js',
+      path: 'dist/pinia.iife.prod.min.js',
     },
   },
   'vue-router': {
