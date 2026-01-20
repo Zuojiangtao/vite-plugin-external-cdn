@@ -59,7 +59,7 @@ const modulesConfig = {
     },
   },
   'vue-router': {
-    var: 'vueRouter',
+    var: 'VueRouter',
     jsdeliver: {
       path: 'dist/vue-router.global.min.js',
     },
