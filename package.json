@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-external-cdn",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A vite plugin to import dependencies as a CDN.",
   "files": [
     "dist"
